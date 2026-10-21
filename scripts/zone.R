@@ -61,4 +61,4 @@ grid <- st_make_grid(mun, 100)
 
 # Ecriture des données
 st_write(plus_grand, "data/marseille.gpkg", append = F)
-st_write(plus_grand, "data/grille.gpkg", append = F)
+st_write(grid, "data/grille.gpkg", append = F)
